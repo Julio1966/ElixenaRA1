@@ -16,7 +16,7 @@ class Server {
 
   routes() {
     this.app.get('/bienvenido', (req, res) => {
-      res.send("<h1>Bienvenido al server de Cristhian</h1>")
+      res.send("<h1>Bienvenido al server de Julio</h1>")
     });
     this.app.get('/cons', (req, res) => {
       res.send("Esta es una prueba")
